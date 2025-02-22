@@ -782,3 +782,11 @@
 [2025-02-22T20:40:45.234+0000] {logging_mixin.py:190} INFO - [2025-02-22T20:40:45.234+0000] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-02-21 00:00:00+00:00, run_after=2025-02-22 00:00:00+00:00
 [2025-02-22T20:40:45.239+0000] {logging_mixin.py:190} INFO - [2025-02-22T20:40:45.239+0000] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-02-21 00:00:00+00:00, run_after=2025-02-22 00:00:00+00:00
 [2025-02-22T20:40:45.256+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.550 seconds
+[2025-02-22T20:41:16.394+0000] {processor.py:186} INFO - Started process (PID=2237) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-22T20:41:16.395+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-22T20:41:16.398+0000] {logging_mixin.py:190} INFO - [2025-02-22T20:41:16.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-22T20:41:16.949+0000] {processor.py:925} INFO - DAG(s) 'read_dataset_event', 'read_dataset_event_from_classic' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-22T20:41:16.970+0000] {logging_mixin.py:190} INFO - [2025-02-22T20:41:16.970+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-02-22T20:41:16.995+0000] {logging_mixin.py:190} INFO - [2025-02-22T20:41:16.995+0000] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-02-21 00:00:00+00:00, run_after=2025-02-22 00:00:00+00:00
+[2025-02-22T20:41:17.000+0000] {logging_mixin.py:190} INFO - [2025-02-22T20:41:17.000+0000] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-02-21 00:00:00+00:00, run_after=2025-02-22 00:00:00+00:00
+[2025-02-22T20:41:17.015+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.626 seconds
